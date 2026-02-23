@@ -45,7 +45,7 @@ df_filtrado = df[
 
 # Conteúdo Principal do Dashboard
 st.title("Dashboard de Ánalise de Salários na Área de Dados")
-st.markdown("Explore os dados slaariais na área de addos nos últimos anos. Utilize os filtros à esquerda para refinar sua análise")
+st.markdown("Explore os dados salariais na área de dados nos últimos anos. Utilize os filtros à esquerda para refinar sua análise")
 st.markdown("---")
 
 # Métricas Principais
@@ -584,4 +584,5 @@ with tab4:
 
 # tabela de dados detalhados
 st.subheader("📋 Tabela de Dados Detalhados")
+
 st.dataframe(df_filtrado, use_container_width=True)
